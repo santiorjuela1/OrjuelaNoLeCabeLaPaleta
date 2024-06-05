@@ -1,0 +1,119 @@
+#titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: blueviolet;
+    font-size: 50px;
+    text-shadow: 1px 5px 50px rgb(219, 219, 219);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background: black;
+    padding: 0;
+    margin: 0;
+}
+#parametros{
+    display: flex;
+    padding-inline: 100px;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+#parametros h1{
+    font-size: 50px;
+    text-shadow: 2px 2px 10px rgb(219, 219, 219);
+}
+
+#parametros p{
+    font-size: 23px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    text-align:justify;
+}
+
+#porque{
+    color: white;
+    border: 1px solid blueviolet;
+    border-radius: 0 0 20% 20%;
+    padding:  50px;
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    box-shadow: inset 1px 1px 50px blueviolet;
+    margin-bottom: 50px;
+}
+#paraque{
+    color: white;
+    border: 1px solid blueviolet;
+    border-radius: 0 0 20% 20%;
+    padding:  50px;
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    margin-bottom: 50px;
+    box-shadow: inset 1px 1px 50px blueviolet;
+}
+#quees{
+    color: white;
+    border: 2px solid blueviolet;
+    border-radius: 0 0 20% 20%;
+    padding:  50px;
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    margin-bottom: 50px;
+    box-shadow: inset 1px 1px 50px blueviolet;
+}
+#valores{
+    color:white;
+    display: flex;
+    align-items: center;
+    padding-inline: 200px;
+    justify-content: space-between;
+    margin-top: 80px;
+    padding-block: 20px;
+    background: rgba(137, 43, 226, 0.733);
+    box-shadow: 0 0 50px rgba(207, 207, 207, 0.822);
+}
+#valores a{
+    color: rgb(219, 219, 219);
+    font-size: 20px;
+}
+#estuds{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: inset 1px 1px 30px white;
+}
+#profes{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: inset 1px 1px 30px white;
+}
+#carrera{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: right;
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: inset 1px 1px 30px white;
+}
