@@ -1,7 +1,8 @@
 #titulo{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    padding-inline: 300px;
     color: blueviolet;
     font-size: 50px;
     text-shadow: 1px 5px 50px rgb(219, 219, 219);
@@ -31,6 +32,7 @@ body{
 }
 
 #porque{
+    background: linear-gradient(to bottom, black, black 40%, blueviolet 90%, blueviolet);
     color: white;
     border: 1px solid blueviolet;
     border-radius: 0 0 20% 20%;
@@ -45,6 +47,7 @@ body{
     margin-bottom: 50px;
 }
 #paraque{
+    background: linear-gradient(to bottom, black, black 40%, blueviolet 90%, blueviolet);
     color: white;
     border: 1px solid blueviolet;
     border-radius: 0 0 20% 20%;
@@ -59,6 +62,7 @@ body{
     box-shadow: inset 1px 1px 50px blueviolet;
 }
 #quees{
+    background: linear-gradient(to bottom, black, black 40%, blueviolet 90%, blueviolet);
     color: white;
     border: 2px solid blueviolet;
     border-radius: 0 0 20% 20%;
@@ -83,7 +87,11 @@ body{
     background: rgba(137, 43, 226, 0.733);
     box-shadow: 0 0 50px rgba(207, 207, 207, 0.822);
 }
+#valores h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 #valores a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(219, 219, 219);
     font-size: 20px;
 }
@@ -95,7 +103,7 @@ body{
     justify-content: center;
     padding: 20px;
     border-radius: 50px;
-    box-shadow: inset 1px 1px 30px white;
+    box-shadow: 1px 1px 20px rgb(0, 0, 0);
 }
 #profes{
     width: 300px;
@@ -105,7 +113,7 @@ body{
     justify-content: center;
     padding: 20px;
     border-radius: 50px;
-    box-shadow: inset 1px 1px 30px white;
+    box-shadow: 1px 1px 20px rgb(0, 0, 0);
 }
 #carrera{
     width: 300px;
@@ -115,5 +123,123 @@ body{
     justify-content: right;
     padding: 20px;
     border-radius: 50px;
-    box-shadow: inset 1px 1px 30px white;
+    box-shadow:  1px 1px 20px rgb(0, 0, 0);
+}
+
+#imgs{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    padding-inline: 100px;
+}
+
+#imgCont{
+    background-color: rgb(228, 228, 228);
+    padding: 20px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px 50px 0 0;
+    box-shadow: inset 2px 2px 30px blueviolet;
+    width: 25%;
+    max-width: 25%;
+    overflow: hidden;
+}
+#imgCont img{
+    border-radius: 50px;
+    border: 2px solid black;
+}
+#imgCont h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    margin-top: 50px;
+}
+#imgCont p{
+    font-size: 23px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    text-align:justify;
+}
+
+#tittle{
+    height: fit-content;
+    font-size: 30px;
+    color: white;
+    text-shadow: 0 20px 20px blueviolet;
+}
+#final{
+    display: flex;
+    margin-top: 10%;
+    height: fit-content;
+}
+#tituloFinal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 40px;
+    padding-top: 30px;
+    text-shadow: 0 0 5px white;
+}
+#coments{
+    width: 70%;
+    background-color: rgba(137, 43, 226, 0.253);
+    box-shadow: inset 2px 2px 30px blueviolet;
+    border-radius: 100px 100px 0 0;
+    padding-bottom: 50px;
+    height: 700px;
+    overflow: hidden;
+}
+#boxComents{
+    color: white;
+    height: 100%;
+    width: 100%;
+    overflow-y:auto;
+    overflow-x: hidden;
+    padding-left: 70px;
+    margin-top: 20px;
+}
+#contacts{
+    width: 30%;
+    background-color: black;
+    box-shadow: inset 2px 2px 30px white;
+    border-radius: 100px 100px 0 0;
+    padding-bottom: 50px;
+}
+#libretaContc{
+    color: white;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 25px;
+}
+
+#content img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 0;
+    margin: 0;
+}
+
+#comentEncabezado{
+    display: flex;
+}
+#comentEncabezado h1, h3{
+    margin-left: 20px;
+}
+#coment{
+    border-radius: 0 20px 20px 20px;
+    font-size: 20px;
+    padding: 20px;
+    padding-inline: 50px;
+    color: white;
+    background: rgba(255, 255, 255, 0.24);
+    box-shadow: inset 2px 2px 30px white;
+    width: 800px;
+}
+
+#content{
+    margin-top: 50px;
 }
